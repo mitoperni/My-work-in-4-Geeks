@@ -1,0 +1,30 @@
+/*Reinicio*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* div {
+    border: 1px solid;
+    border-color: red;
+  } */
+  
+  /*Selectores*/
+  body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .excusegenerator {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 500%;
+    text-align: center;
+    padding: 0 10% 0 10%;
+  }

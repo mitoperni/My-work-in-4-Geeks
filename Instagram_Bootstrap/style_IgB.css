@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    /* Esto crea una proporción de aspecto cuadrada (1:1) */
+    overflow: hidden;
+}
+
+.img-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    /*Esto centra el recorte de la imagen al centro */
+}
+
+
+.oneafterone {
+    display: none;
+} 
+
+
+#changeView input[type="radio"] {
+    display: none;
+}
+
+#changeView input[type="radio"]:checked+label {
+    color: blue;
+}
+
+h3 {
+    font-size: 100%;
+    margin-right: 5%;
+}
+
+#oneafterone p {
+    font-size: 75%;
+}
